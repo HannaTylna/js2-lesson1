@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML elements reference</title>
+    </head>
+    <body>
+        <header>
+            <h1>HTML elements reference</h1>
+            <nav id="navigation">
+                <ul id="navigationMenu">
+                    <li><a href="#definition">Definitions</a></li>
+                    <li><a href="#sectionArticle">Article vs Section</a></li>
+                    <li><a href="#examples">Examples</a></li>
+                  </ul>
+            </nav>
+        </header>
+        <main>
+            <style type="text/css">
+                body {
+                    background-color: lemonchiffon;
+                }
+                </style>
+                <article>
+                    <h2>H2 tag</h2>
+                    <blockquote cite="http://developer.mozilla.org">
+                        <p><b>This is a quotation taken from the <cite>Mozilla Developer Center</cite>.</b></p>
+                    </blockquote>
+                    <section>
+                        <style scoped>
+                            h2 {
+                                width: 100%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                color: mediumblue;
+                                font-family: cursive;
+                                font-size: 32px;
+                            }
+                        </style> 
+                    </section>
+                </article>
+                <article id="definitions">
+                    <h3>Definitions</h3>
+                    <dl>
+                        <dt><span class="definition">A HTML element</span></dt>
+                        <dd>is a type of HTML (Hypertext Markup Language) document component, one of several types of HTML nodes </dd>
+                        <dt><span class="definition">Tag</span></dt>
+                        <dd>is used for creating an element.</dd>
+                        <dt><span class="definition">The <code>span</code> HTML element</span></dt>
+                        <dd>can be used to group elements for styling purposes (using the class or id attributes)</dd>
+                    </dl>
+                </article>
+                <article>
+                    <section id="sectionArticle">
+                        <h3>Section vs Article</h3>
+                        <p id="sectionArticleParagragh">
+                            <aside><br>Section vs Article <br><br></aside>
+                            A <strong>section</strong> is basically a wrapper for h1 (or other h tags) and the content that corresponds to this. 
+                            <strong>An article</strong> is essentially a document within your document that is repeated or paginated...
+                            like each blog post on your document can be an article, or each comment on your document can be an article.
+                        </p> <br>
+                        <figure id="sectionArticleFigure">
+                            <img src="tags.png" alt="About tags">
+                            <figcaption>HTML5 Element Flowchart</figcaption>
+                        </figure>                      
+                    </section>
+                </article>
+                <article id="examples">
+                    <h3>Examples</h3>
+                    <figure role="img" aria-labelledby="cow-caption">
+                        <pre>
+                        ____________________________
+                      < I am an expert in my field. >
+                        ----------------------------
+                               \   ^__^
+                                \  (oo)\_______
+                                   (__)\       )\/\
+                                       ||----w |
+                                       ||     ||
+                        </pre>
+                        <figcaption id="cow-caption">
+                            The cow says, "I am an expert in my field." The cow is illustrated using pre-formatted text characters.
+                        </figcaption>
+                    </figure> 
+                    <hr>
+
+                    <p>The function <code>selectAll()</code> highlights all the text in the
+                        input field so the user can, for example, copy or delete the text.
+                    </p> 
+                    <hr>
+
+                    <p>The <b>Pythagorean theorem</b> is often expressed as the following equation:</p>
+
+                    <p><var>a<sup>2</sup></var> + <var>b<sup>2</sup></var> = <var>c<sup>2</sup></var></p>
+                    <hr>
+
+                    <p>Almost every <u>developer's</u> favorite molecule is C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>, also known as "caffeine."
+                    </p>
+                    <hr>
+
+                </article>
+                <p id="date">The page was created<time datetime="2021-10-25 12:00"> on Octoder 25</time></p>
+        </main>
+        
+        <address id="contact"> Contacts:<br><br>
+            <a target="_blank" href="mailto:qwertyu.asdfghj@gmail.com">Email: qwertyu.asdfghj@gmail.com</a><br>
+            <a href="tel:+12334567890">Tel.: (233) 456-78-90 </a>
+        </address>
+        <footer>
+            <p>© 2021 Hanna Tylna</p>
+        </footer>
+    </body>
+</html>

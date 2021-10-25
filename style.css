@@ -1,0 +1,83 @@
+blockquote {
+    border-top: 2px double brown;
+    border-bottom: 2px double brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: mediumblue;
+    font-family: cursive;
+    font-size: 32px;
+}
+#navigation li{
+    display: inline;
+    margin-right: 20px;
+}
+#navigationMenu a{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+h3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sectionArticleParagragh {
+    text-align: justify;
+    display: flex;
+}
+aside{
+    width: 25%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+#sectionArticleFigure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 500px;
+    margin: auto;
+}
+
+#sectionArticleFigure figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+#contact {
+    float: right;
+    font-style: normal;
+    font-weight: bold;
+    color: blue;
+}
+#contact a {
+    text-decoration: none;
+    color: black;
+}
+.definition {
+    color: BlueViolet;
+    font-weight: bold;
+}
+#date {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 520px;
+}
+#examples p u{
+    text-decoration: #f00 wavy underline;;
+}
