@@ -1,0 +1,21 @@
+h1 {
+    color: blueviolet;
+}
+h2 {
+    color: crimson;
+}
+#most-important {
+    color: aqua;
+}
+.color-green {
+    color: green;
+}
+.color-blue {
+    color: blue;
+}
+.bg-green {
+    background-color: green;
+}
+.bg-green .color-green {
+    color: white;
+}
