@@ -1,7 +1,18 @@
-.navigation{
-    width: 20%;
-    float: left;
+body {
+    width: 90%;
 }
+
+.navigation{
+    width: 15%;
+    float: left;
+    padding-left: 20px;
+}
+
+.navigation p{
+    font-weight: bold;
+    color: #00008B;
+}
+
 .navigation ul {
     list-style: none;
     padding-left: 0;
@@ -11,9 +22,43 @@
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+.navigation li a{
+    text-decoration: none;
+    color: #499EDF;
+}
+
+.navigation li a:hover{
+    color: #00008B;
+}
+
 .content{
     width: 80%;
     float: left;
+}
+
+
+
+.content h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.content ul {
+    text-align: center;
+    list-style: none;
+    font-family: cursive;
+    font-size: 20px;
+    width: 40%;
+}
+
+.content ul li{
+    display: flow-root;
+    padding: 10px;
+}
+
+.content-value{
+    float: right;
 }
 
 .introduction {
@@ -21,6 +66,7 @@
 }
 .image {
     width: 100%;
+    padding-top: 20px;
 }
 
 .caption {
@@ -29,11 +75,39 @@
     text-align: center;
     color: grey;
 }
+.name-column{
+    width: 30%;
+}
 
-.image-colum{
+.price-column{
+    width: 10%;
+}
+
+.image-column{
     width: 20%;
 }
 
 th {
     text-align: left;
+}
+.adress {
+    text-align: center;
+}
+.social-list {
+    text-align: right;
+}
+
+.social-list p{
+    font-weight: bold;
+    text-align: center;
+}
+
+.social-list ul {
+    list-style: none;
+}
+
+footer {
+    width: 90%;
+    float: left;
+    clear: both;
 }
